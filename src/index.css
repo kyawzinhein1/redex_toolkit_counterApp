@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    background-color: cornflowerblue;
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+    margin: 30px 40px;
+    border-radius: 10px;
+}
+
+.numberBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    height: 60px;
+}
+
+.number{
+    display: inline-block;
+    margin-top: 16px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+section .btn, .logout-btn{
+    background-color: #fff;
+    color: cornflowerblue;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 6px 10px;    
+    margin: 15px 0 0 8px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: cornflowerblue;
+    padding: 10px;
+    color: #fff;
+    padding: 15px 20px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.welcome{
+    background-color: transparent;
+}
+
+.welcome-btn{
+    background-color: cornflowerblue;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;    
+}
+
+.logout-btn{
+    margin: 0 0 1px 0;
+}
+
